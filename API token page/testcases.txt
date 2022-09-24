@@ -1,0 +1,53 @@
+1. User should be logged in     /
+2. Verify whether the user lands on the API token settings page     /
+3. Checkboxes should be inactive by default     /
+4. Token name field should be empty by default      /
+5. The checkboxes turn active upon being clicked        /
+    a. Read
+    b. Trade
+    c. Payments
+    d. Trading information
+    e. Admin
+
+6. "Create" button is disabled if none of the checkboxes are active     /
+
+7. "Create" button is disabled if the token name is blank       /
+
+8. "Create" button is disabled if token name contains more than 32 characters with maximum characters warning       /
+
+9. "Create" button is disabled if token name contains less than 2 character with minimum characters warning     /
+
+10. "Create" button is disabled if token name contains special characters other than numbers, letters and underscore        /
+
+11. "Create" button enabled if checkboxes are active and token name is not blank        /
+
+12. Token table is empty if no token has been created yet       /
+
+13. Center compartment of the page is scrollable    /     
+
+14. Clicking "Create" button adds token information into the token table        /
+    a. Token name
+    b. Scopes
+    c. Last used
+
+15. Admin scope should have a standout colour       X
+
+16. If token has Admin access, "Copy" button prompts a pop-up and copies token to clipboard
+    - Clicking "OK" button in pop-up closes pop-up      /
+
+17. Token should be masked by default       /
+
+18. Last used field should be "Never" by default        /
+
+19. "Unhidden" button reveals masked token      /
+
+20. "Hidden" button masks the token     /
+
+21. Token table can add more than one tokens        /
+
+22. "Delete" button prompts a pop-up        /
+    - "Cancel" button closes pop-up
+    - "Yes, delete" button deletes token
+
+23. "X" button takes user back to app.deriv.com page        /
+

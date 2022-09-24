@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.10 on linux)" generated="20220924 18:34:26.913" rpa="false" schemaversion="3">
+<suite id="s1" name="QA Day 8 Project" source="/home/goh/Desktop/QA/QA Day 8 Project">
+<suite id="s1-s1" name="Close Account" source="/home/goh/Desktop/QA/QA Day 8 Project/Close Account">
+<suite id="s1-s1-s1" name="Close" source="/home/goh/Desktop/QA/QA Day 8 Project/Close Account/close.robot">
+<test id="s1-s1-s1-t1" name="Test &quot;Continue&quot; Button and Pop-up" line="58">
+<kw name="Navigate to Close Account Page" library="resources">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@class="account-settings-toggle"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220924 18:34:27.110" level="INFO">Clicking element '//*[@class="account-settings-toggle"]'.</msg>
+<msg timestamp="20220924 18:34:27.112" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220924 18:34:27.114" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20220924 18:34:27.090" endtime="20220924 18:34:27.115"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>/account/closing-account</arg>
+<arg>30</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20220924 18:34:27.116" endtime="20220924 18:34:27.116"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>/account/closing-account</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220924 18:34:27.117" endtime="20220924 18:34:27.117"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>//*[@class="dc-text closing-account__title"]</arg>
+<arg>30</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20220924 18:34:27.117" endtime="20220924 18:34:27.118"/>
+</kw>
+<status status="FAIL" starttime="20220924 18:34:27.089" endtime="20220924 18:34:27.118"/>
+</kw>
+<kw name="Click &quot;Close my account&quot; Button" library="resources">
+<status status="NOT RUN" starttime="20220924 18:34:27.119" endtime="20220924 18:34:27.119"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@class="dc-text dc-checkbox__label" and contains(.,'I have other financial priorities.')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220924 18:34:27.119" endtime="20220924 18:34:27.120"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>//*[@class="dc-checkbox__box dc-checkbox__box--active"]</arg>
+<arg>30</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20220924 18:34:27.120" endtime="20220924 18:34:27.120"/>
+</kw>
+<kw name="Click &quot;Continue&quot; Button" library="resources">
+<status status="NOT RUN" starttime="20220924 18:34:27.120" endtime="20220924 18:34:27.120"/>
+</kw>
+<kw name="Close Pop-up" library="resources">
+<status status="NOT RUN" starttime="20220924 18:34:27.120" endtime="20220924 18:34:27.121"/>
+</kw>
+<status status="FAIL" starttime="20220924 18:34:27.085" endtime="20220924 18:34:27.130">No browser is open.</status>
+</test>
+<status status="FAIL" starttime="20220924 18:34:26.936" endtime="20220924 18:34:27.132"/>
+</suite>
+<status status="FAIL" starttime="20220924 18:34:26.931" endtime="20220924 18:34:27.137"/>
+</suite>
+<status status="FAIL" starttime="20220924 18:34:26.916" endtime="20220924 18:34:27.143"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="QA Day 8 Project">QA Day 8 Project</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Close Account">QA Day 8 Project.Close Account</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Close">QA Day 8 Project.Close Account.Close</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

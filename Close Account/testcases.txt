@@ -1,0 +1,29 @@
+Page 1
+- User is logged in     /
+- User successfully lands on the close account settings page        /
+- Clicking "Cancel" button returns to app.deriv.com page        /
+- Clicking "Security and privacy policy" hyperlink opens a new tab      /
+- Clicking "Close account" button takes user to the next page       /
+
+Page 2
+- All checkboxes are inactive by default        /
+- Each checkbox turns active when clicked       /
+- Active checkboxes turn inactive when clicked      /
+- "Continue" button is disabled if none of the checkboxes are active        /
+- "Continue" button is active when at least one checkbox is active      /
+- Maximum 3 checkboxes are allowed to be active at a time       /
+- Maximum amount of characters allowed for both text boxes combined is no more than 110 characters      /
+- Remaining characters remaining accurately updates as the user enters text into both text boxes        /
+- Clicking "Back" button takes user to previous page        /
+- "X" button takes user to app.deriv.com page       /
+- "Continue" button prompts a pop-up        /
+- "Go Back" button closes pop-up        /
+- "Close account" button closes account     /
+
+- Logging in again with the same account details prompts a new page
+
+
+Additional: 
+- User should be unable to close account if there are balance remaining
+- User should be unable to close account if they have any open trade positions
+
