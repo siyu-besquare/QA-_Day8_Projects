@@ -16,8 +16,8 @@ Login
     Wait Until Page Contains Element    ${rise button}    30
     Click Element    dt_login_button
     Wait Until Page Contains Element    ${email field}    10
-    Input Text    ${email field}    si.yu@besquare.com.my
-    Input Text    //input[@type='password']    DerivPassWord123
+    Input Text    ${email field}    
+    Input Text    //input[@type='password']    
     Click Element    //button[@type='submit']
     Wait Until Page Does Not Contain Element    ${loading interface}      30
 
